@@ -1,0 +1,12 @@
+name = "your-project-name"
+main = "_worker.js"
+compatibility_date = "2023-01-01" # You may need to use a different date
+
+[site]
+bucket = "./out" # Or whatever your output directory is
+
+[vars]
+# Add any environment variables here
+
+[build]
+command = "npx @cloudflare/next-on-pages"
